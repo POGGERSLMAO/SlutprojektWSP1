@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+            <!--Sakerna på måste kunna interaktera med -->
     <div id="themap">
-        <div id="map">
-        <div id="pongball"></div>
-        <div id="movingwall"></div>
-        <div id="player"></div>
+            <div id="map">
+            <div id="pongball"></div>
+            <div id="movingwall"></div>
+            <div id="player"></div>
     <div>
-        <div class = "score">Best score: <span id="bestscore">0</span> score</div>
-        <div class ="controls">Use up and down arrows to move</div>
-        
+             <div class = "score">Best score: <span id="bestscore">0</span> score</div> <!--För att kunna göra highscore-->
+             <div class ="currentscore">Your current score: </div><span id="currentscore">0</span> points</div> <!--För att hålla koll på current score-->
+       
+                <!--Kontroller-->
+             <label id = "label">Use keboard to move</label> 
+        <br>
+             <button id="startgame" onclick="start()">Start Game</button>
+             <button id="quit" onclick="stop()">Quit</button>
+         </div>
+    <div id = controls></div>
+             <button id="upwards" onmousedown="control()">Go Upwards</button>
+             <button id="downwards" onmousedown="control()">Go Downwards</button>
+        </div>
+    </div>   
     </div>
+    <script src="js/js.js"></script>
 </body>
 </html>
