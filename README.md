@@ -18,3 +18,8 @@ Jag ska börja med min layout, så att jag vet hur allting ska se ut. Sedan ska 
 
 
 ### Vecka 17, TOR 9:33. Flesta html element är inne, jag ska nu börja med CSS för att organisera det. Efter rasten fortsätta med layout
+
+
+
+# Screenshots
+https://gyazo.com/b2a6c905688f2bf3de69fa0d11bbc93b
