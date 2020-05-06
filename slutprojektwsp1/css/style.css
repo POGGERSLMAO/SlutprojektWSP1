@@ -16,3 +16,22 @@
     top: 0px;
     z-index:1;
 }
+
+#pongball {
+    background-color:rgba(20,200,200,0.45);
+    position:absolute;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    margin-left :50%;
+    margin-top:25%
+}
+
+#movingwall {
+    position:absolute;
+    height: 100%;
+    width:4px;
+    left:80%;
+    top: 0px;
+    background-color:black;
+}
